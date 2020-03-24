@@ -5,4 +5,4 @@
 #### In this repo one can find programming problems related to mathematics, encryption and decryption etc.
 #### Problems are quite awesome and requires a lot of logical thinking.
 #### Few problems are also based on decipher and capture the flag type.
-#### In my repository I have solved every question usin both python and C++.
+#### In my repository I have solved every question using both python and C++.
