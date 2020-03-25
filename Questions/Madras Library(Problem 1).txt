@@ -1,4 +1,6 @@
-So you found a rusty box full of old computer tapes in an abandoned library in old Madras. The tapes have holes in them and might contain some sort of useful information. It falls to you to figure out what is written on them.
+So you found a rusty box full of old computer tapes in an abandoned library in old Madras. 
+The tapes have holes in them and might contain some sort of useful information.
+It falls to you to figure out what is written on them.
 
 Input:
 Input contains the name of a file in which the computer tapes are recorded.
