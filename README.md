@@ -6,7 +6,7 @@
 #### Problems are quite awesome and requires a lot of logical thinking.
 #### Few problems are also based on decipher and capture the flag type.
 #### In my repository I have solved every question using both python and C++.
-
+#### -----------------------------------------------------------------------------------------------------
 #### *Step 1 :  To view the questions go on to the questions folder.*
 #### *Step 2 :  To view the respective solutions select either python or C++ folder.*
 #### *Note : Before actually seeing the solution first give it a try.*
