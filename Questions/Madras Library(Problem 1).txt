@@ -12,14 +12,14 @@ Contraints:
 No. of line in the message < 10,000
 
 Sample Input:
-* * *
-*** *
+*   * *
+***   *
 *** * *
-** *
+**    *
 ** **
-** * *
+** *  *
 *** *
-**** *
+****  *
 
 Output:
 Equality
