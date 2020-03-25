@@ -1,0 +1,25 @@
+So you found a rusty box full of old computer tapes in an abandoned library in old Madras. The tapes have holes in them and might contain some sort of useful information. It falls to you to figure out what is written on them.
+
+Input:
+Input contains the name of a file in which the computer tapes are recorded.
+
+Output:
+The secret message that is written on the tape.
+
+Contraints:
+No. of line in the message < 10,000
+
+Sample Input:
+* * *
+*** *
+*** * *
+** *
+** **
+** * *
+*** *
+**** *
+
+Output:
+Equality
+
+Decipher the code written in the text file: https://drive.google.com/open?id=1cszZW0dS0xNfclZsDsQleeO4E9k7KCii
