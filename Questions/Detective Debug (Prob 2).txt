@@ -1,0 +1,41 @@
+[Detective Debug and the Mysterious woman!]
+
+
+Detective Debug is tired after struggling with the Madras Library problem. He goes to a nearby café to relax and the Mysterious Woman suddenly appears from nowhere and takes the seat in front of him. Debug is surprised. And she starts speaking as follows:
+
+Suppose I gave you the number 1751477356 and ask you to tell me what it means to you. What would you do? I imagine you'd just stare back cluelessly! Well of course, that's only natural.
+
+You know by now that an 'unsigned int' is a datatype of size 32 bits (4 bytes). Also, you should know by now that a 'char' is a datatype of size 8 bits (1 byte). Now, imagine a 4 lettered word such as "hell". This essentially has four characters (‘h’, ‘e’, ‘l’, ‘l’) in it. Considering the ascii values of each of these characters and converting them to 8bit binary digits and stringing them together, we can convert the 4 lettered word to a stream of bits as follows:
+
+Since
+'h' is 01101000
+'e' is 01100101
+'l' is 01100101
+'l' is 01100101
+
+"hell" will be 01101000 01100101 01101100 01101100
+
+But wait! This has exactly 32bits (4 bytes), no? Now, what if we interpret this stream of 32 bits as one unsigned int? What will its decimal value be? It turns out the answer is 1751477356. Therefore, a seemingly innocent number such as 1751477356 can be wisely used to hide some deadly information!
+
+The mysterious woman then hands a small piece of paper with a sequence of numbers to Debug and disappears in a jiffy! Detective Debug is shit scared! Help him write a computer program (Python and C/C++) that takes this file with a sequence of 'unsigned integers' and converts them all to strings and outputs the complete hidden message.
+
+Sample Input:
+1282365029
+1599564108
+1281320553
+1315200833
+1601659257
+
+Sample Output:
+LoVe_WiLL_fiNd_A_way
+
+Constraints:
+1) The language of the secret message has to be English.
+2) Each number n in the message is such that 0 <= n <= 4294967295
+3) Each number 'n' has 4 characters embedded in it.
+
+
+Decipher the secret embedded in this file:
+https://drive.google.com/open?id=1dMi6FYZKd4M2TGDtiYXejXsPznIN3zgU
+
+Note: This is challenge is designed keeping C/C++ in mind. So it is highly recommended to try and solve it in C/C++.
