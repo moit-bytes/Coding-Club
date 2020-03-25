@@ -1,0 +1,61 @@
+[ Yours precisely, Sailaja. [Episode - 1] ]
+
+
+During her school days Sailaja's teacher used to ridicule her interest in 
+math and programming saying girls should stay away from these tough and intellectually 
+challenging subjects. Instead of losing hope, she kept working on her passion 
+independently not caring for the cultural bias around her.
+
+As a college girl she is obsessed with numerical precision. She always believed 
+precision is absolutely crucial when it comes to computations related to scientific 
+experiments and also finance. For example she knew that every time a new particle is 
+discovered in an accelerometer (in CERN for example), the numerical computations involve 
+precisions of very very very high order. But most of these programming languages 
+(including Python) don't support arbitrary precision. For instance in Python, if you do
+
+>>> 1/246
+It returns
+>>> 0.0040650406504065045
+But when you inverse this operation and do
+>>> 1/0.0040650406504065045
+It returns
+>>> 245.99999999999997
+
+This is the classic floating point round-off error. Sailaja does not like this. 
+She wanted to build her own computer program that evaluates the decimal 
+representation of the fraction X/Y up to a desired precision.
+
+Input:
+The input will consist of a set of triples of values for X, Y, P separated by commas.
+
+Output:
+The output evaluates X/Y with P digits after the decimal dot.
+
+Constraints:
+0 < X < 9223372036854775807;
+0 < Y < 9223372036854775807;
+0 < P < 1000000;
+
+Sample Input:
+
+1789,1917,45
+
+
+1789,1917,100
+
+9573215120,9382616286,300
+
+Sample Output:
+
+0.933229003651538862806468440271257172665623369
+
+0.9332290036515388628064684402712571726656233698487219613980177360459050599895670318205529473135106937
+
+1.020314039089970731005976470985355182199550518845549216782710067229109746415563902982784731563517762299333147854576987227334216063240167338545256586868376170957482977685526976904872223823989384872943316271092363416299256298926940898667802559649512240534995699172941750631024366714680758500753208783625
+
+Read the input values from the following file and produce an output file with correct answers.
+https://drive.google.com/file/d/1eflpqYUVw0-HdvWVAFwYJI8T1BeoAwzT/view?usp=sharing
+
+Note:
+1. Try to solve this in both Python and C/C++
+2. The output file should not contain linespaces.
