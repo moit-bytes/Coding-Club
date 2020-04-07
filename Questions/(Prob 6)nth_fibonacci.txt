@@ -1,0 +1,20 @@
+Write a program that takes a positive integer n and returns the sum of last 9 digits of nth fibonacci number.
+
+Constraints:
+50 < n < 50000
+
+Sample Input:
+36559
+7770
+3227
+6113
+21358
+
+Sample Output:
+27
+33
+48
+43
+38
+
+Note: Solve this problem in C/C++.

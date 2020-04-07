@@ -1,4 +1,3 @@
-
 def detective():
     s = input("Enter the file name without extension : ")
     f = open(s+".txt", "r")

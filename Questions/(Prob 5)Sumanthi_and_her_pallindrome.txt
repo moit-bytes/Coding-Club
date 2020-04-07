@@ -1,0 +1,29 @@
+Checking if a given word is a palindrome is so old school and Sumathi gets bored with these kind of exercises by now. She wanted to check if the given word can be rearranged to become a palindrome. That is given a string, her task is to reorder its letters in such a way that the word becomes a palindrome (i.e., it reads the same forwards and backwards).
+
+Input:
+The only input line has a string of length n consisting of characters A–Z.
+
+Output:
+Print a palindrome consisting of the characters of the original string. 
+You may print any valid solution. If there are no solutions, print "NO SOLUTION".
+
+Constraints
+1 ≤ n ≤ 1000
+Example
+
+Input:
+AAAACACBA
+BHANUU
+YOPPO
+
+Output:
+AACABACAA
+NO SOLUTION
+POYOP
+
+Test your program on this file:
+https://drive.google.com/open?id=1D2oaDii7xmL0iBVRoL709DG5uvRFBANz
+
+Note:
+1. Present your solution in C/C++ and Python.
+2. DO NOT upload ipynb's and/or online links here.

@@ -1,0 +1,14 @@
+Given an integer n, write a function that returns count of trailing zeroes in factorial(n).
+
+Constriant:
+1 < n < 100000
+
+Sample Input:
+2
+20
+100
+
+Sample Output:
+0
+4
+24
